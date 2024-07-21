@@ -1,0 +1,74 @@
+*{
+   font-family:  "Bebas Neue", sans-serif;
+   font-size: 15px;
+}
+body{
+    background-image: url("1.jpg");
+}
+#contain{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: none;
+    border-radius: 15px;
+    height: 180px;/*650*/
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 30px hsla(0, 0%, 4%, 0.878);
+}
+#Disp{
+    border:none;
+    border-radius: 10px;
+    width: 0px;
+    height: 0px;
+    
+    /* width: 0px;/*500*/
+    /* height: 0px;400 */ 
+    padding: 10px 15px 10px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    text-align: start;
+    color: black;
+    background-color: black;
+    overflow:auto;
+    /* box-shadow: 0px 0px 20px hsl(0, 100%, 99%); */
+}
+input{
+    margin-top: 50px;
+    padding: 10px 35px 10px 15px;
+    width: 300px;
+    border: none;
+    height: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    
+}
+button{
+    margin-left: 18px;
+    width: 150px;
+    height: 45px;
+    border: none;
+    padding: 5px 8px 5px 8px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+pre{
+   
+    margin-top: 0px;
+    padding: 1px 2px 1px 2px;
+    margin-left: 15px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    text-shadow: 0px 0px 20px snow;
+}
+button:hover{
+    opacity: 1;
+    box-shadow: 0px 0px 10px snow;
+}
+input:hover,:focus{
+    box-shadow: 0px 0px 9px hsl(0, 80%, 99%);
+}
